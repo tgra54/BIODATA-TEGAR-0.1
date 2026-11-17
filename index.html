@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radhitya Tegar Andarwan — Personal Profile</title>
+<meta name="description" content="Personal profile Radhitya Tegar Andarwan: siswa DKV, creative enthusiast, atlet Pencak Silat.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav" id="nav">
+  <a href="#home" class="logo">RTA<span>.</span></a>
+  <button class="burger" id="burger" aria-label="Menu"><i></i><i></i><i></i></button>
+  <nav id="menu">
+    <a href="#home">Home</a><a href="#tentang">Tentang Saya</a><a href="#pendidikan">Pendidikan</a>
+    <a href="#prestasi">Prestasi</a><a href="#dkv">DKV</a><a href="#profil">Profil</a>
+  </nav>
+</header>
+
+<!-- ============ 1. HERO ============ -->
+<section class="hero" id="home">
+  <svg class="hero-art" viewBox="0 0 600 600" aria-hidden="true">
+    <defs><linearGradient id="hg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1e3a8a"/></linearGradient></defs>
+    <circle cx="300" cy="300" r="250" fill="none" stroke="#3b82f6" stroke-opacity=".25" stroke-dasharray="4 10"/>
+    <circle cx="300" cy="300" r="170" fill="none" stroke="#fff" stroke-opacity=".12"/>
+    <path d="M300 120 L470 300 L300 480 L130 300Z" fill="url(#hg)" opacity=".25"/>
+    <!-- kamera -->
+    <g class="float" transform="translate(205 235)">
+      <rect width="190" height="120" rx="18" fill="#0f172a" stroke="#60a5fa" stroke-width="3"/>
+      <rect x="60" y="-18" width="70" height="26" rx="8" fill="#0f172a" stroke="#60a5fa" stroke-width="3"/>
+      <circle cx="95" cy="62" r="38" fill="#1e3a8a" stroke="#60a5fa" stroke-width="3"/>
+      <circle cx="95" cy="62" r="18" fill="#3b82f6"/><circle cx="104" cy="54" r="5" fill="#fff" opacity=".8"/>
+    </g>
+    <!-- pen tool / desain -->
+    <g class="float d2" transform="translate(70 90)" stroke="#93c5fd" stroke-width="3" fill="none">
+      <path d="M0 70 L40 0 L80 70Z"/><circle cx="40" cy="30" r="5" fill="#93c5fd"/>
+    </g>
+    <!-- siluet pencak silat -->
+    <g class="float d3" transform="translate(430 400)" stroke="#bfdbfe" stroke-width="5" stroke-linecap="round" fill="none">
+      <circle cx="30" cy="0" r="9" fill="#bfdbfe"/><path d="M30 10 L28 55 L5 85 M28 55 L55 80 M30 22 L70 10 M30 25 L0 40"/>
+    </g>
+    <rect x="60" y="440" width="120" height="8" rx="4" fill="#3b82f6" opacity=".6"/>
+  </svg>
+  <div class="hero-text">
+    <p class="eyebrow">Personal Profile · 2026</p>
+    <h1>RADHITYA<br>TEGAR ANDARWAN</h1>
+    <p class="sub">DKV Student | Creative Enthusiast | Pencak Silat Athlete</p>
+    <p class="lead">Siswa SMK Negeri 2 Pati jurusan Desain Komunikasi Visual yang memiliki ketertarikan pada dunia kreatif dan visual, serta aktif dalam olahraga Pencak Silat.</p>
+    <div class="btns"><a class="btn primary" href="#pendidikan">Lihat Perjalanan Saya</a><a class="btn" href="#tentang">Tentang Saya</a></div>
+  </div>
+</section>
+
+<!-- ============ 2. TENTANG SAYA ============ -->
+<section id="tentang" class="wrap">
+  <h2 class="title reveal"><small>01</small>Tentang Saya</h2>
+  <div class="about">
+    <div class="card profile reveal">
+      <div class="avatar">RT</div><!-- Ganti dengan <img src="assets/images/foto.jpg"> jika ingin memakai foto -->
+      <dl>
+        <dt>Nama</dt><dd>Radhitya Tegar Andarwan</dd>
+        <dt>Tempat, Tanggal Lahir</dt><dd>Pati, 29 Oktober 2009</dd>
+        <dt>Domisili</dt><dd>Kutoharjo, Pati, Jawa Tengah</dd>
+        <dt>Pendidikan</dt><dd>SMK Negeri 2 Pati</dd>
+        <dt>Jurusan</dt><dd>DKV — Desain Komunikasi Visual</dd>
+        <dt>Minat</dt><dd>Desain Grafis, Fotografi, Videografi, Visual Communication, Pencak Silat</dd>
+      </dl>
+    </div>
+    <p class="about-text reveal">Radhitya Tegar Andarwan merupakan siswa SMK Negeri 2 Pati jurusan Desain Komunikasi Visual yang memiliki ketertarikan pada dunia kreatif dan visual. Selain aktif dalam bidang DKV, saya juga aktif dalam olahraga Pencak Silat dan telah meraih prestasi hingga tingkat Nasional.</p>
+  </div>
+</section>
+
+<!-- ============ 3. PENDIDIKAN ============ -->
+<section id="pendidikan" class="wrap">
+  <h2 class="title reveal"><small>02</small>My Education Journey</h2>
+  <div class="timeline">
+
+    <!-- TK -->
+    <article class="stage tk reveal">
+      <div class="bg"><svg viewBox="0 0 600 300" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <rect width="600" height="300" fill="#fde7c0"/><circle cx="520" cy="60" r="34" fill="#fbbf24"/>
+        <rect y="235" width="600" height="65" fill="#9ca3af"/><rect y="262" width="600" height="3" fill="#fff" opacity=".7"/>
+        <!-- asrama kiri & kanan -->
+        <g fill="#b45309"><rect x="10" y="130" width="150" height="105"/><rect x="450" y="140" width="140" height="95"/></g>
+        <g fill="#fef3c7"><rect x="25" y="150" width="20" height="25"/><rect x="60" y="150" width="20" height="25"/><rect x="95" y="150" width="20" height="25"/><rect x="465" y="160" width="20" height="25"/><rect x="500" y="160" width="20" height="25"/><rect x="535" y="160" width="20" height="25"/></g>
+        <!-- gedung TK -->
+        <rect x="200" y="140" width="200" height="95" fill="#f97316"/><path d="M185 145 L300 85 L415 145Z" fill="#b91c1c"/>
+        <rect x="280" y="180" width="40" height="55" fill="#7c2d12"/><rect x="220" y="165" width="35" height="30" fill="#fff7ed"/><rect x="345" y="165" width="35" height="30" fill="#fff7ed"/>
+        <circle cx="300" cy="125" r="10" fill="#fff7ed"/>
+        <!-- pagar -->
+        <g stroke="#78350f" stroke-width="3"><path d="M0 232H600"/><path d="M0 215H600"/></g>
+        <g stroke="#78350f" stroke-width="3"><path d="M20 210v25M60 210v25M100 210v25M140 210v25M460 210v25M500 210v25M540 210v25M580 210v25"/></g>
+      </svg></div>
+      <div class="content"><span class="tag">AWAL PERJALANAN</span><h3>TK Kartika III-46</h3>
+        <p class="loc">Ngipik, Kutoharjo, Kecamatan Pati, Kabupaten Pati, Jawa Tengah</p>
+        <p>Awal perjalanan pendidikan saya dimulai di TK Kartika III-46.</p></div>
+    </article>
+
+    <!-- SD -->
+    <article class="stage sd reveal">
+      <div class="bg"><svg viewBox="0 0 600 300" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <rect width="600" height="300" fill="#bae6fd"/><circle cx="90" cy="60" r="30" fill="#fde047"/>
+        <rect y="240" width="600" height="60" fill="#65a30d"/>
+        <rect x="150" y="130" width="330" height="110" fill="#f1f5f9"/><rect x="140" y="118" width="350" height="16" fill="#b91c1c"/>
+        <g fill="#38bdf8"><rect x="170" y="155" width="34" height="40"/><rect x="220" y="155" width="34" height="40"/><rect x="370" y="155" width="34" height="40"/><rect x="420" y="155" width="34" height="40"/></g>
+        <rect x="290" y="170" width="50" height="70" fill="#92400e"/>
+        <!-- tiang bendera -->
+        <rect x="75" y="110" width="5" height="130" fill="#475569"/><rect x="80" y="112" width="34" height="11" fill="#dc2626"/><rect x="80" y="123" width="34" height="11" fill="#fff"/>
+        <!-- pohon -->
+        <g><rect x="525" y="180" width="10" height="60" fill="#78350f"/><circle cx="530" cy="165" r="38" fill="#15803d"/><circle cx="505" cy="185" r="25" fill="#16a34a"/></g>
+      </svg></div>
+      <div class="content"><span class="tag">MEMBENTUK DASAR</span><h3>SD Negeri Kutoharjo 03</h3>
+        <p class="loc">Sebelumnya: SD Negeri Kutoharjo 01 Pati<br>Jl. Raya Pati - Tayu No. 55A Km. 2, Mojoagung, Kutoharjo, Trangkil, Pati, Jawa Tengah</p>
+        <p>Masa pendidikan dasar yang sederhana, cerah, dan penuh pengalaman pertama.</p></div>
+    </article>
+
+    <!-- SMP -->
+    <article class="stage smp reveal">
+      <div class="bg"><svg viewBox="0 0 600 300" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <defs><linearGradient id="sg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e40af"/><stop offset="1" stop-color="#0b1b3f"/></linearGradient></defs>
+        <rect width="600" height="300" fill="url(#sg)"/>
+        <path d="M0 80 L120 0 L240 80Z M400 0 L520 90 L600 20 L600 0Z" fill="#3b82f6" opacity=".35"/>
+        <circle cx="500" cy="70" r="55" fill="#60a5fa" opacity=".3"/>
+        <rect y="248" width="600" height="52" fill="#1e3a8a"/>
+        <rect x="120" y="120" width="360" height="128" fill="#e2e8f0"/><rect x="120" y="105" width="360" height="20" fill="#2563eb"/>
+        <rect x="120" y="150" width="360" height="8" fill="#2563eb"/>
+        <g fill="#1d4ed8"><rect x="145" y="172" width="38" height="45"/><rect x="205" y="172" width="38" height="45"/><rect x="357" y="172" width="38" height="45"/><rect x="417" y="172" width="38" height="45"/></g>
+        <rect x="275" y="180" width="50" height="68" fill="#0f172a"/>
+        <!-- siluet silat subtle -->
+        <g stroke="#bfdbfe" stroke-width="5" stroke-linecap="round" fill="none" opacity=".8" transform="translate(40 170)"><circle cx="20" cy="0" r="8" fill="#bfdbfe"/><path d="M20 10 L18 45 L0 75 M18 45 L45 70 M20 20 L52 8"/></g>
+      </svg></div>
+      <div class="content"><span class="tag">MEMBANGUN PRESTASI</span><h3>SMP Negeri 5 Pati</h3>
+        <p>Pada jenjang SMP, saya mulai aktif mengikuti berbagai kegiatan dan meraih prestasi dalam cabang olahraga Pencak Silat hingga tingkat Provinsi.</p>
+        <div class="badge"><b>PENCAK SILAT</b>TINGKAT PROVINSI</div></div>
+    </article>
+
+    <!-- SMK -->
+    <article class="stage smk reveal">
+      <div class="bg"><svg viewBox="0 0 600 300" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <defs><linearGradient id="kg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient></defs>
+        <rect width="600" height="300" fill="#0a1330"/>
+        <!-- Sayap Biru abstrak -->
+        <path d="M300 150 L40 40 L120 130 L20 150 L130 175 L60 230 L300 190Z" fill="url(#kg)" opacity=".55"/>
+        <path d="M300 150 L560 40 L480 130 L580 150 L470 175 L540 230 L300 190Z" fill="url(#kg)" opacity=".55"/>
+        <rect y="256" width="600" height="44" fill="#0b1f4d"/>
+        <!-- gedung modern -->
+        <path d="M170 256 V150 L300 110 L430 150 V256Z" fill="#cbd5e1"/><path d="M160 150 L300 100 L440 150 L440 165 L300 118 L160 165Z" fill="#2563eb"/>
+        <g fill="#1d4ed8" opacity=".9"><rect x="190" y="180" width="30" height="55"/><rect x="235" y="180" width="30" height="55"/><rect x="335" y="180" width="30" height="55"/><rect x="380" y="180" width="30" height="55"/></g>
+        <rect x="278" y="195" width="44" height="61" fill="#0f172a"/>
+        <!-- elemen DKV: kamera, monitor, tipografi -->
+        <g stroke="#93c5fd" stroke-width="3" fill="none"><rect x="30" y="200" width="46" height="30" rx="6"/><circle cx="53" cy="215" r="8"/><rect x="525" y="195" width="50" height="34" rx="3"/><path d="M540 240h20"/></g>
+        <text x="532" y="220" font-family="Poppins,sans-serif" font-weight="800" font-size="20" fill="#93c5fd" stroke="none">Aa</text>
+        <g stroke="#bfdbfe" stroke-width="5" stroke-linecap="round" fill="none" transform="translate(90 190)"><circle cx="20" cy="0" r="8" fill="#bfdbfe"/><path d="M20 10 L18 45 L0 70 M18 45 L45 65 M20 20 L52 8"/></g>
+      </svg></div>
+      <div class="content"><span class="tag">BERKEMBANG DAN BERKARYA</span><h3>SMK Negeri 2 Pati <em>· Kampus Sayap Biru</em></h3>
+        <p class="loc">Jalan Gembong Rendole KM 4, Rendole, Muktiharjo, Kecamatan Margorejo, Kabupaten Pati, Jawa Tengah</p>
+        <p>Pada jenjang SMK, saya memilih jurusan DKV (Desain Komunikasi Visual). Di jenjang ini saya semakin mengembangkan kemampuan kreatif sekaligus melanjutkan perjalanan prestasi dalam Pencak Silat hingga tingkat Nasional.</p>
+        <div class="badges"><div class="badge"><b>PENCAK SILAT</b>TINGKAT NASIONAL</div><div class="badge alt"><b>DKV</b>DESAIN KOMUNIKASI VISUAL</div></div></div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 4. PRESTASI ============ -->
+<section id="prestasi" class="wrap">
+  <h2 class="title reveal"><small>03</small>Achievements</h2>
+  <div class="grid two">
+    <div class="card medal reveal"><div class="medal-icon">🥇</div><span class="tag">Jenjang SMP</span><h3>PENCAK SILAT<br>TINGKAT PROVINSI</h3><p>Meraih prestasi dalam cabang olahraga Pencak Silat hingga tingkat Provinsi.</p></div>
+    <div class="card medal reveal"><div class="medal-icon">🏆</div><span class="tag">Jenjang SMK</span><h3>PENCAK SILAT<br>TINGKAT NASIONAL</h3><p>Melanjutkan prestasi dalam cabang olahraga Pencak Silat hingga tingkat Nasional.</p></div>
+  </div>
+</section>
+
+<!-- ============ 5. DKV ============ -->
+<section id="dkv" class="wrap">
+  <h2 class="title reveal"><small>04</small>My Creative World</h2>
+  <p class="intro reveal">Sebagai siswa DKV, saya memiliki ketertarikan terhadap berbagai bidang kreatif dan visual.</p>
+  <div class="grid three">
+    <div class="card hov reveal"><div class="ico">🎨</div><h3>Graphic Design</h3><p>Merangkai bentuk, warna, dan tipografi menjadi pesan visual.</p></div>
+    <div class="card hov reveal"><div class="ico">📷</div><h3>Photography</h3><p>Menangkap momen dan sudut pandang lewat cahaya.</p></div>
+    <div class="card hov reveal"><div class="ico">🎬</div><h3>Videography</h3><p>Bercerita melalui gambar bergerak dan alur visual.</p></div>
+    <div class="card hov reveal"><div class="ico">💬</div><h3>Visual Communication</h3><p>Menyampaikan ide agar mudah dipahami dan berkesan.</p></div>
+    <div class="card hov reveal"><div class="ico">🖌️</div><h3>Digital Art</h3><p>Berkarya dengan perangkat digital dan imajinasi.</p></div>
+    <div class="card hov reveal"><div class="ico">✨</div><h3>Creative Design</h3><p>Mencari solusi desain yang segar dan bermakna.</p></div>
+  </div>
+</section>
+
+<!-- ============ 6. FROM ATHLETE TO CREATIVE ============ -->
+<section class="wrap">
+  <h2 class="title reveal"><small>05</small>From Athlete to Creative</h2>
+  <div class="split reveal">
+    <div class="side creative"><h3>CREATIVE SIDE</h3><ul><li>DKV</li><li>Design</li><li>Photography</li><li>Videography</li></ul></div>
+    <div class="plus">+</div>
+    <div class="side athlete"><h3>ATHLETE SIDE</h3><ul><li>Pencak Silat</li><li>Discipline</li><li>Achievement</li><li>National Level</li></ul></div>
+  </div>
+  <blockquote class="reveal">“Kreativitas membentuk cara saya berkarya, sementara olahraga membentuk disiplin dan semangat saya untuk berkembang.”</blockquote>
+</section>
+
+<!-- ============ 7. WHO I AM ============ -->
+<section id="profil" class="wrap">
+  <h2 class="title reveal"><small>06</small>Who I Am</h2>
+  <div class="statement reveal"><p>Saya adalah siswa DKV yang memiliki ketertarikan terhadap dunia kreatif dan visual. Perjalanan pendidikan saya tidak hanya membentuk kemampuan akademik, tetapi juga mengajarkan disiplin, kerja keras, keberanian, dan konsistensi melalui Pencak Silat.</p></div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <h3>Radhitya Tegar Andarwan</h3>
+  <p>DKV Student | Creative Enthusiast | Pencak Silat Athlete</p>
+  <div class="flinks"><a href="#home">Home</a><a href="#tentang">Tentang</a><a href="#pendidikan">Pendidikan</a><a href="#prestasi">Prestasi</a><a href="#dkv">DKV</a><a href="#profil">Profil</a></div>
+  <small>© 2026 Radhitya Tegar Andarwan</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
